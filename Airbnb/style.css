@@ -1,0 +1,83 @@
+.v-center {
+   display: flex;
+   align-items: center;
+}
+
+
+@media (max-width: 768px){ 
+	
+}
+
+@media (min-width: 768px) and (max-width: 1200px){ 
+	
+}
+
+
+/* Extra Small */
+@media(max-width:425px){
+	#switch {
+		display: none;
+	}
+	#mapId { 
+		display:none;
+	}
+	#filtres{
+		display:none;
+	}
+	#resultats {
+		width: 100%;
+		display:inline-block;
+	}
+	.desc{
+		font-size:8px;
+	}
+	.prix{
+		font-size:8px;
+	}
+}
+
+/* Small and mid */
+@media(min-width:426px) and  (max-width:1023px){
+	#mapId { 
+		display:inline-block;
+		width: 0px;
+		height: 0px;
+	}
+	#filtres{
+		display:inline-block;
+		width: 30%;
+	}
+	#resultats {
+		width: 70%;
+		display:inline-block;
+	}
+	.desc{
+		font-size:10px;
+	}
+	.prix{
+		font-size:10px;
+	}
+}
+
+/* Large */
+@media(min-width:1024px){
+	#switch {
+		display: none;
+	}
+	#mapId { 
+		width: 300px;height: 300px;
+		display:inline-block;
+	}
+	#resultats {
+		width: 45%;
+	}
+	#filtres{
+		display:inline-block;
+	}
+	.desc{
+		font-size:12px;
+	}
+	.prix{
+		font-size:12px;
+	}
+}
