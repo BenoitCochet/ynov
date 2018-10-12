@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Trouve ton album</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://unpkg.com/jquery"></script>
+        <script src="https://surveyjs.azureedge.net/1.0.49/survey.jquery.js"></script>
+        <link href="https://surveyjs.azureedge.net/1.0.49/survey.css" type="text/css" rel="stylesheet"/>
+        <script src="questionnaire.js"></script>
+        <link rel="stylesheet" href="index.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Trouver un album</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1">
+						
+					</section>
+					<script>
+						$("#intro").append("<div class='inner'><h1>Trouver un album</h1><p>Envie d'écouter un album mais tu n'as pas d'idées ? On s'occupe de tout.</p></div>");
+					</script>
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section id="questions">
+							<div id="choix1" style="display:block;"> 
+								<h2 style="text-align: center">Quelle ambiance ?</h2>
+					          <button type="button" style="margin-bottom:15px;background-color:white;color:#5e42a6 !important;width: 100%" id="sombre" onclick="questionsuivante('sombre',1)">Sombre</button></br>
+					          <button type="button" style="margin-bottom:15px;background-color:white;color:#5e42a6 !important;width: 100%" id="colore">Colorée</button></br>
+					          <button type="button" style="margin-bottom:15px;background-color:white;color:#5e42a6 !important;width: 100%" id="chill">Chill</button>
+					        </div>
+					        <div id="resultat" style="display:none;"> 
+					          
+					        </div>
+						</section>
+					</section>
+					<script>
+						function recherche(){
+							window.location.reload();
+						}
+					</script>
+
+			</div>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
